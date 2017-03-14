@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "E:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\Android.mk"
+  ],
+  "cleanCommands": [
+    "E:\\android-ndk-r13b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dE:/Project_WorkSpace/JNIIntroduction/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "hello-debug-x86": {
+      "buildCommand": "E:\\android-ndk-r13b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d1 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dE:/Project_WorkSpace/JNIIntroduction/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\build\\intermediates\\ndkBuild\\debug\\lib E:/Project_WorkSpace/JNIIntroduction/app/build/intermediates/ndkBuild/debug/obj/local/x86/libhello.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "hello",
+      "files": [
+        {
+          "src": "E:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\hello.c",
+          "flags": "\"-gcc-toolchain\" \"E:/android-ndk-r13b/build//../toolchains/x86-4.9/prebuilt/windows-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-IE:/Project_WorkSpace/JNIIntroduction/app/src/main/jnilibs\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-isystem\" \"E:/android-ndk-r13b/build//../platforms/android-14/arch-x86/usr/include\""
+        }
+      ],
+      "output": "E:\\Project_WorkSpace\\JNIIntroduction\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86\\libhello.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "E:\\android-ndk-r13b\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

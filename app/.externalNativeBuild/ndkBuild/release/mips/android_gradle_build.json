@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "E:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\Android.mk"
+  ],
+  "cleanCommands": [
+    "E:\\android-ndk-r13b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dE:/Project_WorkSpace/JNIIntroduction/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "libraries": {
+    "hello-release-mips": {
+      "buildCommand": "E:\\android-ndk-r13b\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003dE:/Project_WorkSpace/JNIIntroduction/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\Project_WorkSpace\\JNIIntroduction\\app\\build\\intermediates\\ndkBuild\\release\\lib E:/Project_WorkSpace/JNIIntroduction/app/build/intermediates/ndkBuild/release/obj/local/mips/libhello.so",
+      "toolchain": "toolchain-mips",
+      "abi": "mips",
+      "artifactName": "hello",
+      "files": [
+        {
+          "src": "E:\\Project_WorkSpace\\JNIIntroduction\\app\\src\\main\\jnilibs\\hello.c",
+          "flags": "\"-gcc-toolchain\" \"E:/android-ndk-r13b/build//../toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64\" \"-target\" \"mipsel-none-linux-android\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-mips32\" \"-O2\" \"-DNDEBUG\" \"-IE:/Project_WorkSpace/JNIIntroduction/app/src/main/jnilibs\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"E:/android-ndk-r13b/build//../platforms/android-14/arch-mips/usr/include\""
+        }
+      ],
+      "output": "E:\\Project_WorkSpace\\JNIIntroduction\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\mips\\libhello.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-mips": {
+      "cCompilerExecutable": "E:\\android-ndk-r13b\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
